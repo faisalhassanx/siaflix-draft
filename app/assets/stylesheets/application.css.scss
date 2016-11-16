@@ -16,3 +16,53 @@
 
 @import "materialize/components/color";
 @import "materialize";
+
+body {
+	background-color: #e3f2fd;
+}
+
+.nav-wrapper {
+	padding: 0px 40px;
+}
+
+main {
+      flex: 1 0 auto;
+}
+
+.input-field input[type=date]:focus + label,
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=password]:focus + label {
+  color: #e91e63;
+}
+    
+.input-field input[type=date]:focus,
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=password]:focus {
+  border-bottom: 2px solid #e91e63;
+  box-shadow: none;
+}
+
+.section {
+	margin-top: 20px;
+}
+#threeColumns {
+	overflow: hidden;
+	width: 1000px;
+	margin: 20px auto;
+	margin-top: 40px;
+	padding: 30px 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.signup {
+	display: inline-block;
+	padding: 20px;
+	border: 1px solid #EEE;
+	width: 60%;
+}
+
+#signupbtn {
+	float: none;
+}
